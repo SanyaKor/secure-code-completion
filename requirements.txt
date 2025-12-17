@@ -1,0 +1,11 @@
+torch>=2.0
+transformers>=4.35
+huggingface-hub>=0.20
+datasets>=2.14
+
+libcst>=1.0
+pandas>=2.0
+
+rouge-score>=0.1
+rapidfuzz>=3.0
+absl-py>=1.4
