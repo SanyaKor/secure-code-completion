@@ -26,5 +26,5 @@ jobs:
 
       - name: Run notebook
         run: |
-          jupyter nbconvert --execute --to notebook --ExecutePreprocessor.skip_tags='["skip-ci-execution"]' secure-code-completion.ipynb
+          jupyter nbconvert --execute --to notebook --ExecutePreprocessor.skip_cells_with_tag=skip-ci-execution secure-code-completion.ipynb
           
